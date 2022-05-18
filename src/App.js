@@ -1,6 +1,5 @@
 import Sidebar from "./Components/Sidebar/Sidebar"
 import Main from "./Components/Main/Main"
-
 import "./Assets/style.scss"
 
 
@@ -9,7 +8,7 @@ function App() {
     <div className="app">
       <Sidebar />
       <div className="content">
-        <Main />
+          <Main />
       </div>
     </div>
   );

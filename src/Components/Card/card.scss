@@ -1,0 +1,37 @@
+.card {
+	height: 134px;
+	width: 230px;
+	border-radius: 8px;
+	background: #ffffff;
+	border: 1px solid #dfe0eb;
+	box-sizing: border-box;
+	border-radius: 8px;
+
+	&:hover {
+		border: 1px solid #3751ff;
+
+        .card-title , .card-content{
+            color: #3751ff;
+        }
+	}
+
+	.card-title {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 19px;
+		line-height: 24px;
+		text-align: center;
+		letter-spacing: 0.4px;
+		color: #9fa2b4;
+	}
+
+	.card-content {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 40px;
+		line-height: 50px;
+		text-align: center;
+		letter-spacing: 1px;
+		color: #252733;
+	}
+}
